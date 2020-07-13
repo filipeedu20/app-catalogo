@@ -1,0 +1,14 @@
+.controle_pagina{
+    height: 1450px;
+}
+.pagina{
+    width: 950px;
+    border: solid 1px #cccccc;
+    margin: 0 auto;
+    padding: 5px;;
+}
+body{
+    font-family: opensans,opensans-bastian,Arial,sans-serif;
+  }
+
+ 

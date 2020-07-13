@@ -1,0 +1,7 @@
+    <div *ngFor="let anime of list" class="anime">
+      <img [src]="anime.attributes.posterImage.small" width="180" height="220" alt="Capa">
+      <div class="card-body">
+        <h5 class="card-title">{{anime.attributes.canonicalTitle}}</h5>
+        <p class="card-text">{{anime.attributes.synopsis.slice(0,50)}}</p>
+        <button class="btn" (click)="goToDetalhesByState(anime)">Detalhes</button>
+    </div>

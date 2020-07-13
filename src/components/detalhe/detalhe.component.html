@@ -1,0 +1,20 @@
+
+
+      <div class="conteudo" *ngIf="anime">
+        <div class="card-content">
+          <div class="card-img">
+            <img [src]="anime.attributes.posterImage.medium" class="">
+          </div>
+          <div class="descricao_item">
+            <h1>{{anime.attributes.canonicalTitle}}</h1>
+            <h4>Episódios: {{anime.attributes.episodeCount}}</h4>
+            <h5>{{anime.attributes.startDate | date}} a {{anime.attributes.endDate | date}} </h5>
+            <p>{{anime.attributes.synopsis}}</p>
+            <a routerLink="/mestre" class="btn">Voltar</a>
+          </div>
+        </div>
+      </div>
+
+
+
+
